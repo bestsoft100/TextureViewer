@@ -57,8 +57,8 @@ public class MainWindow extends Window implements KeyListener, MouseWheelListene
 
 		menuBar.add(fileMenu);
 		
-		mainPanel.add(menuBar, 0, 0, 1, 1, 1, 0);
-		mainPanel.add(imagePanel, 0, 1, 1, 1, 1, 1);
+		mainPanel.add(menuBar, 0, 0, 1, 0);
+		mainPanel.add(imagePanel, 0, 1, 1, 1);
 		
 		add(mainPanel);
 		
